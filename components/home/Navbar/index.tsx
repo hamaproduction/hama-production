@@ -24,6 +24,9 @@ const Navbar = () => {
         <LinkItem label="Media" link="/media" />
         {/* <LinkItem label="Careers" link="/careers" /> */}
         <LinkItem label="Contact us" link="/contact" />
+        <LinkItem label="our work " link="/#back"  />
+      
+        
       </div>
 
       <ListButton />

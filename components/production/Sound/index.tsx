@@ -6,6 +6,18 @@ import Underline from '../../Underline'
 const Sound = () => {
   return (
     <div className="bg-black" id="soundd">
+<Container className="">
+      <h1 className="uppercase text-4xl font-Helvetica-bold text-primary-orange-1 font-bold mt-5 " >Sound</h1>
+      <Underline color="orange" />
+      <div className="text-white text-lg font-helvetica-light">
+          <p className="mt-3 xl:text-2xl my-5 ">
+          Having the best studio and the best sound engineers makes HAMA’s 
+          production department the best in the country.
+           We bring movement to life through recording, sound and music mixing.</p>
+        </div>
+    </Container>
+
+
     <div
       style={{
         backgroundImage:
@@ -41,16 +53,7 @@ const Sound = () => {
         </div>
       </Container> */}
     </div>
-    <Container className="">
-      <h1 className="uppercase text-4xl font-Helvetica-bold text-primary-orange-1 font-bold mt-5 " >Sound</h1>
-      <Underline color="orange" />
-      <div className="text-white text-lg font-helvetica-light">
-          <p className="mt-3 xl:text-2xl my-5 ">
-          Having the best studio and the best sound engineers makes HAMA’s 
-          production department the best in the country.
-           We bring movement to life through recording, sound and music mixing.</p>
-        </div>
-    </Container>
+    
     </div>
   )
 }

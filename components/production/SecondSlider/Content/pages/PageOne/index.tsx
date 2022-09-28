@@ -8,7 +8,24 @@ const PageOne: FC = () => {
 
   return (
     <div className="bg-black min" id="photo">
-     
+      <Container className="">
+      <h2 className="uppercase text-4xl font-Helvetica-bold text-primary-orange-1 font-bold mt-5" >Photography</h2>
+      <Underline color="orange" />
+      <div className="text-white text-lg font-helvetica-light xl:text-2xl">
+      <div className="mt-5  font-helvetic-black ">
+          <p>Capturing beauty is something that the HAMA Production team is really
+            passionate about. The best photographers in the country work with us
+             to seize the moments that need to be kept forever.
+             We provide photography services for service brand</p>
+        </div>
+        {/* <div className="">
+          <p>The best photographers in the country work with us to seize the
+          moments that need to be kept forever. We provide photography
+          services for service brand.</p>
+        </div> */}
+
+        </div>
+    </Container>
     <div
       style={{
         backgroundImage:
@@ -40,24 +57,7 @@ const PageOne: FC = () => {
         </div>
       </Container> */}
     </div>
-    <Container className="">
-      <h2 className="uppercase text-4xl font-Helvetica-bold text-primary-orange-1 font-bold mt-5" >Photography</h2>
-      <Underline color="orange" />
-      <div className="text-white text-lg font-helvetica-light xl:text-2xl">
-      <div className="mt-5  font-helvetic-black ">
-          <p>Capturing beauty is something that the HAMA Production team is really
-            passionate about. The best photographers in the country work with us
-             to seize the moments that need to be kept forever.
-             We provide photography services for service brand</p>
-        </div>
-        {/* <div className="">
-          <p>The best photographers in the country work with us to seize the
-          moments that need to be kept forever. We provide photography
-          services for service brand.</p>
-        </div> */}
-
-        </div>
-    </Container>
+   
     </div>
   )
 }

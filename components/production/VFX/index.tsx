@@ -4,8 +4,9 @@ import Right from './Right'
 const VFX = () => {
   return (
     <div className="">
-      <Right />
       <Left />
+      <Right />
+      
       
     </div>
   )

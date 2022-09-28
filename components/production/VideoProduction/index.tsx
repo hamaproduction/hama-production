@@ -5,9 +5,9 @@ import Right from './Right'
 const VideoProduction = () => {
   return (
     <div className="">
-     
+     <Left />
       <Right />
-       <Left />
+       
     </div>
   )
 }
