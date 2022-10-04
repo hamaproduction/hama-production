@@ -23,6 +23,7 @@ const Modal: FC<{ close: () => void; show: boolean }> = ({ close, show }) => {
           <ModalItem label="our services " href="/production" />
           <ModalItem label="Media" href="/media" />
           <ModalItem label="Contact Us" href="/contact" />
+          <ModalItem label="our Work" href="#/back" />
         </motion.div>
       )}
     </AnimatePresence>
