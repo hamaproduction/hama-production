@@ -4,7 +4,7 @@ import Container from '@components/layout/Container'
 
 const ContactUs = () => {
   return (
-    <div className="w-full lg:w-5/12  bg-primary-yellow-1">
+    <div className="w-full lg:w-5/12  bg-primary-yellow-1" >
       <Container className="flex justify-center  py-20"> 
         <div className="w-full max-w-lg">
           <h2 className="uppercase lg:text-6xl text-4xl font-extrabold font-helvetica-black">

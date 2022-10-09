@@ -2,7 +2,7 @@ import Link from 'next/link'
 import HamaLogo from '../../layout/HamaLogo'
 import LinkItem from './LinkItem'
 import ListButton from './ListButton'
-
+import WhatWeDoButton from './WhatWeDoButton'
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between bg-blend-black ">
@@ -16,15 +16,15 @@ const Navbar = () => {
         className="hidden lg:flex items-center font-helvetica-light tracking-widest justify-between gap-10 "
       >
         <LinkItem label="HOME" link="/" />
-        
+        <LinkItem label="our work " link="/#back"  />
         <LinkItem label="About Us" link="/about" />
-        {/* <WhatWeDoButton /> */}
+        <WhatWeDoButton /> 
 
-        <LinkItem label="our services " link="/production" />
+        {/* <LinkItem label="our services " link="/production" /> */}
         <LinkItem label="Media" link="/media" />
         {/* <LinkItem label="Careers" link="/careers" /> */}
         <LinkItem label="Contact us" link="/contact" />
-        <LinkItem label="our work " link="/#back"  />
+        
       
         
       </div>

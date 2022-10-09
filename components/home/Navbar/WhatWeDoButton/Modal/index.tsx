@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
 import { FC, useRef } from 'react'
 import { useHoverDirty } from 'react-use'
+import LinkItem from '../../LinkItem'
 
 const Modal: FC<{ close: () => void; show: boolean }> = ({ close, show }) => {
   const ref = useClickOutside(close)
@@ -16,12 +17,15 @@ const Modal: FC<{ close: () => void; show: boolean }> = ({ close, show }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1 }}
           ref={ref}
-          className="absolute items-center flex flex-col gap-6 uppercase text-xl text-center bg-primary-gray-1 w-52 left-0 text-white p-5 py-7"
+          className="absolute items-center flex flex-col gap-6  text-lg text-center bg-primary-gray-1 w-52 left-0 text-white p-5 py-7"
         >
-          <ModalItem label="Creative" href="/creative" />
-          <ModalItem label="Production" href="/production" />
-          <ModalItem label="Digital" href="/digital" />
-          <ModalItem label="Media" href="/media" />
+        
+          
+          <ModalItem label="video production" href="#myVideo" />
+          <ModalItem label="VFX" href="#VFXX" />
+          <ModalItem label="Animation" href="#ani" />
+          <ModalItem label="Sound" href="#soundd" />
+          <ModalItem label="Photography" href="#photo" />
         </motion.div>
       )}
     </AnimatePresence>
@@ -36,7 +40,7 @@ const ModalItem: FC<{ label: string; href: string }> = ({ href, label }) => {
     <Link href={href}>
       <a
         ref={ref}
-        className={`cursor-pointer text-left w-2/3 duration-200 font-helvetica-black ${
+        className={`cursor-pointer text-left w-2/3 duration-200 font-helvetica-condensed ${
           hovered ? 'text-primary-yellow-1' : ''
         }`}
       >

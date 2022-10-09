@@ -1,19 +1,19 @@
 import Footer from '@components/layout/Footer' 
 import Meta from '@components/Meta'
 import Animation from '@components/production/Animation'
-import Header from '@components/production/Header'//nav-bar change production to our services 
-import OurServices from '@components/production/OurServices'//delete
-import ProductionServicing from '@components/production/ProductionServicing'//delete
+import Header from '@components/production/Header' 
+import OurServices from '@components/production/OurServices'
+import ProductionServicing from '@components/production/ProductionServicing'
 import SecondSlider from '@components/production/SecondSlider'
-import SectionFour from '@components/production/SectionFour' //delete 
-import SectionOne from '@components/production/SectionOne'// delete
-import SectionThree from '@components/production/SectionThree'//delete
-import SectionTwo from '@components/production/SectionTwo'//delete
-import Slider from '@components/production/Slider'// -> Content ->PageOne->We work all over Iraq 
+import SectionFour from '@components/production/SectionFour' 
+import SectionOne from '@components/production/SectionOne'
+import SectionThree from '@components/production/SectionThree'
+import SectionTwo from '@components/production/SectionTwo'
+import Slider from '@components/production/Slider'
 import Sound from '@components/production/Sound'
 import VFX from '@components/production/VFX'
 import VideoProduction from '@components/production/VideoProduction'
-import Works from '@components/Works'//our services 
+import Works from '@components/Works'
 
 
 const Production = () => {
@@ -31,7 +31,7 @@ const Production = () => {
         <SectionThree />
         <Works />
         <SectionFour /> */}
-        <OurServices />
+        {/* <OurServices /> */}
         <VideoProduction />
         {/* <PostProduction /> */}
         <VFX />

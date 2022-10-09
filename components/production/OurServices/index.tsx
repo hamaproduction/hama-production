@@ -13,7 +13,7 @@ const OurServices = () => {
         {/* <p className='text-white xl:text-2xl mt-5'>Our work is recognizable through its superior quality and extraordinary stories behind them. 
         We’re passionate storytellers and we’re here to tell yours in a meaningful and memorable way. </p> */}
         <div className="uppercase xl:text-2xl font-Helvetica-bold  text-white mt-5 align-text-left">
-        <p  ><Link href="#videopr" replace>
+        <p  ><Link href="/#videopr" replace>
          <a className='text-left'> video production</a>
         </Link>
         
