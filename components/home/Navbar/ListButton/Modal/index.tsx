@@ -19,11 +19,12 @@ const Modal: FC<{ close: () => void; show: boolean }> = ({ close, show }) => {
           className="absolute items-center flex flex-col gap-6 uppercase text-xl text-center bg-primary-gray-1 right-0 top-12 w-52 ring-0 text-white p-5 py-7"
         >
           <ModalItem label="Home" href="/" />
+          <ModalItem label="our Work" href="/#back" />
           <ModalItem label="About Us" href="/about" />
           <ModalItem label="our services " href="/production" />
           <ModalItem label="Media" href="/media" />
           <ModalItem label="Contact Us" href="/contact" />
-          <ModalItem label="our Work" href="/#back" />
+          
         </motion.div>
       )}
     </AnimatePresence>
