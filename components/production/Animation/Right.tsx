@@ -18,7 +18,7 @@ const Right = () => {
         }}
       >
         <source
-          src="https://hama-group.s3.eu-central-1.amazonaws.com/vids/tishk_net_animation.mp4"
+          src="https://hama-group.s3.eu-central-1.amazonaws.com/vids/hama_showrel+(VFX).mp4"
           type="video/mp4"
         />
       </video>
