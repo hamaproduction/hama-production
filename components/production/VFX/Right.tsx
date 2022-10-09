@@ -22,7 +22,7 @@ const Right = () => {
         poster="/production/outside.jpg"
       >
         <source
-          src="https://hama-group.s3.eu-central-1.amazonaws.com/vids/vfx_breakdown.mp4"
+          src="https://hama-group.s3.eu-central-1.amazonaws.com/vids/vfx_breakdown+(1).mp4"
           type="video/mp4"
         />
       </video>
