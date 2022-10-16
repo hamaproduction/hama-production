@@ -8,7 +8,7 @@ const HamaLogo: FC<{
   return (
     <div
       style={{ }}
-      className={`max-w-[90px] lg:w-full ${className}`}
+      className={`max-w-[100px] lg:w-full ${className}`}
     >
       <Image
         style={{ zIndex: 0 }}
@@ -16,8 +16,8 @@ const HamaLogo: FC<{
         height={400}
         src={
           color === 'yellow'
-            ? `/images/hama-group-logo.png`
-            : `/images/hama-group-logo-gray.png`
+            ? `/images/hama-production.png`
+            : `/images/hama-prodcution-black.png`
         }
         className="object-contain"
         alt="hama group logo"

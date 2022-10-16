@@ -24,7 +24,7 @@ const About = () => {
             <HamaLogo className="-ml-3" color="black" />
 
             <h2 className="text-3xl mt-10 text-primary-gray-1">
-              About <span className="uppercase font-extrabold">Hama</span>
+              About <span className="uppercase font-extrabold">Hama Production</span>
               <Underline color="black" className="rounded-sm" />
             </h2>
 

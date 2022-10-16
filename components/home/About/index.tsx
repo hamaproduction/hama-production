@@ -20,7 +20,7 @@ const About: FC<{ divRef: any }> = ({ divRef }) => {
       <Container className="flex flex-col justify-center h-full">
         <div className="flex text-6xl text-primary-gray-1 flex-col justify-center">
           <h2>ABOUT</h2>
-          <h2>HAMA Group</h2>
+          <h2>HAMA Production</h2>
           <div className="h-[6px] w-10 mt-3 bg-primary-gray-1"></div>
 
           {/* <p className="text-2xl mt-10 md:w-2/3 lg:w-1/2 font-light font-helvetica-condensed">
