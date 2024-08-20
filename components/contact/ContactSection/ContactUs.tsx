@@ -27,7 +27,7 @@ const ContactUs = () => {
                   <a href={PHONE_NUMBER_1}>+964 770 361 4849</a>
                 </p>
                 <p>
-                  <a href={PHONE_NUMBER_2}>+964 750 320 4849</a>
+                  <a href={PHONE_NUMBER_2}>+964 751 814 4849</a>
                 </p>
               </div>
             </div>

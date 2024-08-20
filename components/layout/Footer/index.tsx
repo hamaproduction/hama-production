@@ -57,7 +57,7 @@ const Footer = () => {
           <Separator />
           <div className="items-center gap-16 hidden lg:flex">
             <p>+964 (0) 770 361 4849</p>
-            <p>+964 (0) 750 320 4849</p>
+            <p>+964 (0) 751 814 4849</p>
           </div>
 
           <div className="flex items-center gap-5 text-2xl">
@@ -73,7 +73,7 @@ const Footer = () => {
               </a>
             </Link>
 
-            <Link href="https://vimeo.com/hamagroup">
+            <Link href="https://vimeo.com/hamaproduction">
               <a target={'_blank'}>
                 <FaVimeo />
               </a>
@@ -115,7 +115,7 @@ const ContactMobile = () => {
   return (
     <div className="text-xs lg:hidden flex flex-wrap gap-5 justify-center text-center">
       <p className="col-span-2">+964 (0) 770 361 4849</p>
-      <p className="col-span-1">+964 (0) 750 320 4849</p>
+      <p className="col-span-1">+964 (0) 751 814 4849</p>
       <Link href="mailto:info@hamafx.com">
         <a>Info@hamafx.com</a>
       </Link>
